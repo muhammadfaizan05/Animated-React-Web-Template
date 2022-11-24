@@ -1,0 +1,136 @@
+.Layout_Wrapper {
+    /* background-color: aquamarine; */
+    margin-top: 10%;
+}
+
+.Text_Cover {
+    width: 40%;
+    margin-left: 6%;
+    align-items: left;
+    text-align: left;
+}
+
+.txt_Data {
+    font-size: medium;
+
+}
+
+.underline_section {
+    text-align: left;
+    width: 210px;
+    height: 5px;
+    background-color: #ffa927;
+    margin-top: -4px;
+}
+
+.Bar_cards {
+    margin-top: 2%;
+    width: 90%;
+    margin: auto;
+}
+
+.card_item {
+    display: block;
+
+}
+
+.card_cover {
+    background-image: url('./browser.png');
+    width: 318px;
+    height: 183px;
+    display: block;
+    position: relative;
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.first_img {
+    background-image: url('./full.png');
+    background-repeat: no-repeat;
+    width: 318px;
+    height: 183px;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+    position: absolute;
+}
+
+.first_img:hover {
+    background-image: url('./full-hover.png');
+}
+
+.second_img {
+    background-image: url('./left.png');
+    background-repeat: no-repeat;
+    width: 318px;
+    height: 183px;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+    position: absolute;
+}
+
+.second_img:hover {
+    background-image: url('./left-hover.png');
+}
+
+.third_img {
+    background-image: url('./right.png');
+    background-repeat: no-repeat;
+    width: 318px;
+    height: 183px;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+    position: absolute;
+}
+
+.third_img:hover {
+    background-image: url('./right-hover.png');
+}
+
+.adLine {
+    margin-top: 10%;
+    width: 100%;
+    background-color: black;
+    padding: 55px 50px;
+}
+
+.adLine p {
+    width: 60%;
+    float: left;
+    color: white;
+}
+
+.adLine button {
+    padding: 1%;
+    font-size: unset;
+    color: darkorange;
+    cursor: pointer;
+}
+
+.adLine button:hover {
+    background-color: #ffa927;
+    color: azure;
+    transition: all ease 0.2s;
+}
+
+@media (max-width:500px) {
+    .Text_Cover {
+        width: 70%;
+        margin-left: 10%;
+        align-items: left;
+        text-align: left;
+    }
+
+    .adLine {
+        margin-top: 10%;
+        width: 100%;
+        background-color: black;
+        padding: 30px 20px;
+    }
+    .adLine p {
+        width: 98%;
+    }
+    .adLine button {
+        padding: 1%;
+        margin-top: 2%;
+    }
+}

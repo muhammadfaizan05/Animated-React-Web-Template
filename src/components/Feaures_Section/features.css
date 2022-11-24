@@ -1,0 +1,89 @@
+
+.main_Section{
+    margin-top:2%;
+    border: 1px solid #dfdfdf;
+    background-color: #fafafa;
+    display: inline-block;
+}
+.Title{
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    
+}
+.section_title h1{
+    text-align: left;
+    font-family: "Oswald";
+    color: #282828;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.section_title .underline_section{
+    text-align: left;
+    width: 200px;
+    height: 5px;
+    background-color: #ffa927;
+    margin-top: -4px;
+}
+
+.section_desc{
+    color: #2B2B2B;
+    text-align: left;
+    font-family: "Open Sans";
+    font-size: 17px;
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+.card_boxes{
+    width: 80%;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 50px;
+    margin-right: 2%;
+}
+.box{
+    width: 31%;
+    text-align: left;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+.box img{
+    width: 100px;
+}
+.box h3{
+    font-family: serif;
+}
+
+.box:hover img{
+    rotate: y 0.55turn;
+    transition: all ease 2s;
+}
+
+@media (max-width:780px) {
+    .card_boxes{
+        width: 95%;
+        margin: auto;
+    }
+    .Title{
+        width: 95%;
+        text-align: center;
+    }
+}
+
+@media (max-width:500px) {
+    .card_boxes{
+        display: block;
+    }
+    .box{
+        display: block;
+        width: 90%;
+        margin: auto;
+        margin-top: 2%;
+    }
+}
+.last{
+    margin-bottom: 10%;
+}
